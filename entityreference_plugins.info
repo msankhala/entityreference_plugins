@@ -1,0 +1,4 @@
+name = MYMODULE
+description = Demonstration of Entity reference plugins.
+core = 7.x
+

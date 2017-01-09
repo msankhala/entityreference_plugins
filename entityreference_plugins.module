@@ -1,0 +1,11 @@
+<?php 
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function MYMODULE_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'entityreference') {
+    return 'plugins/entityreference/' . $plugin;
+  }
+}
+
